@@ -40,7 +40,8 @@ To get started with the project, make sure you have the following prerequisites:
 - Python 3 
 - numpy 
 - pandas
-
+- 7-Zip (https://www.7-zip.org/)
+- 
 ## Instructions
 
 Clone the repository:
@@ -48,10 +49,19 @@ Clone the repository:
 ```shell
 git clone https://github.com/your-username/bike-share-analysis.git
    ```
-Install the required dependencies:
+Extract the CSV data file:
+
+    Locate the downloaded 7z file containing the bike share data.
+    Right-click on the 7z file and select "Extract Here" using 7-Zip.
+
+Move the extracted data file:
+
+    Open the extracted folder.
+    Move the CSV data file to the same folder as the Python code.
 ```shell
 pip install numpy pandas
 ```
+Extract the 
 Run the script:
 ```shell
 python bike_share_analysis.py
