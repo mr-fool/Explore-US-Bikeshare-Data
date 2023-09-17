@@ -41,7 +41,7 @@ To get started with the project, make sure you have the following prerequisites:
 - numpy 
 - pandas
 - 7-Zip (https://www.7-zip.org/)
-- 
+  
 ## Instructions
 
 Clone the repository:
